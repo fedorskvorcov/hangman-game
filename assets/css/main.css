@@ -1,0 +1,44 @@
+body {
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+}
+
+.guess {
+  margin-bottom: 30px;
+}
+
+.buttons {
+  max-width: 700px;
+}
+
+.main-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.green {
+  background-color: rgba(15, 230, 30, .8);
+}
+
+.red {
+  background-color: rgba(230, 15, 30, .8);
+}
+
+.guess-letter {
+
+}
+
+.letter {
+  display: inline-block;
+  padding: 0 8px;
+  margin: 2px;
+  font-size: 2.2rem;
+  border: 1px solid grey;
+}
+
+.button-letter {
+  cursor: pointer;
+}
